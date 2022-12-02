@@ -1,0 +1,157 @@
+.label {
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #b4c3ee;
+
+}
+
+.main-content>h2 {
+  margin-left: 40%;
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.main-content>h2:hover {
+  font-size: 140px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(117, 4, 4);
+}
+
+.info {
+  background-color: rgb(223, 8, 8);
+  box-shadow: rgb(73, 7, 7);
+}
+
+.info:hover {
+  font-size: 70px;
+}
+
+.label:hover {
+  font-size: 70px;
+}
+
+
+/* carte */
+
+
+.sida-card {
+  overflow: hidden;
+  background-color: #d6dffa !important;
+  color: #1f4c73;
+}
+
+.sida-card:hover {
+  font-size: 25px;
+  width: 50rem;
+  color: red;
+}
+
+.sida-card img {
+  height: 300px;
+}
+
+.sida-card img:hover {
+  transform: scale(1.1);
+  transition-duration: .5s;
+
+
+}
+
+/* for like */
+
+
+.active-btn {
+  color: red !important;
+}
+
+/* For deslike */
+
+
+.active-bttn {
+  color: blue !important;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition-duration: .5s;
+
+}
+
+
+
+/* L"erreur de message */
+div.row:empty:before {
+  content: 'cette symthome existe pas ';
+  margin: auto;
+  padding: 2rem;
+  font-size: 1.05rem;
+  color: red;
+  font-weight: 600;
+}
+
+/* Filter Checkbox */
+.filter-form {
+  padding: 1.5rem 2rem 0rem;
+  text-align: center;
+}
+
+.checkbox-select label {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.09rem;
+}
+
+
+
+
+/* Pagination */
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 13px;
+  border: 1px solid #1f4c73;
+  color: #1f4c73;
+  cursor: pointer;
+  background-color: #b4c3ee;
+  text-decoration: #1f4c73;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #0e82e0;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #0e82e0;
+
+}
+
+.paginationDisabled a {
+  color: black;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.paginationDisabled a:hover {
+  color: black;
+  background-color: grey;
+}
+
+.Containerrr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

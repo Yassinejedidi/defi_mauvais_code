@@ -1,3 +1,7 @@
+.main-content {
+  background-color: #00FF00 !important;
+}
+
 .label {
   color: white;
   padding: 5px;
@@ -14,9 +18,10 @@
 }
 
 .main-content>h2:hover {
-  font-size: 140px;
+  font-size: 110px;
   font-family: 'Times New Roman', Times, serif;
-  color: rgb(117, 4, 4);
+  color: rgb(202, 5, 5);
+  background-color: blueviolet;
 }
 
 .info {
@@ -30,6 +35,8 @@
 
 .label:hover {
   font-size: 70px;
+  background-color: yellow;
+
 }
 
 
@@ -38,7 +45,7 @@
 
 .sida-card {
   overflow: hidden;
-  background-color: #d6dffa !important;
+  background-color: pink !important;
   color: #1f4c73;
 }
 
@@ -46,6 +53,7 @@
   font-size: 25px;
   width: 50rem;
   color: red;
+  background-color: blue !important;
 }
 
 .sida-card img {
